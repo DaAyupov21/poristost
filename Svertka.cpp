@@ -12,7 +12,6 @@ Svertka::Svertka(vector<vector<int>> m, vector<vector<int>> k) {
     for(auto & i : result){
         i.resize(matrix.size()-kernel.size() + 1, 0); //создаем размерность матрицы после свертки
     }
-cout << endl;
     for(int i = 0; i < result.size(); i++){
         for(int j = 0; j < result[i].size(); j++){
             for(int ik = 0; ik < kernel.size(); ik++) {
@@ -24,22 +23,21 @@ cout << endl;
                 }
             }
         }
-        cout << endl;
     }
 
 }
 void Svertka::PrintResult() {
-    for(int i = 0; i < result.size(); i++){
-        for (int j = 0; j < result[i].size(); j++){
-            cout << setw(5) << result[i][j];
+    for(auto & i : result){
+        for (int j : i){
+            cout << setw(5) << j;
         }
         cout << endl;
     }
 }
 void Svertka::PrintMatrix() {
-    for(int i = 0; i < matrix.size(); i++){
-        for (int j = 0; j < matrix[i].size(); j++){
-            cout << setw(5) << matrix[i][j];
+    for(auto & i : matrix){
+        for (int j : i){
+            cout << setw(5) << j;
         }
         cout << endl;
     }
