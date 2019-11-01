@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/damir/CLionProjects/svertka/Svertka.cpp
-Svertka.h
-/home/damir/CLionProjects/svertka/Svertka.h
-iomanip
--
-stdio.h
-/home/damir/CLionProjects/svertka/stdio.h
-
 /home/damir/CLionProjects/svertka/Svertka.h
 vector
 -
@@ -21,4 +13,12 @@ iostream
 -
 cstdio
 -
+
+/home/damir/CLionProjects/svertka/main.cpp
+iostream
+-
+vector
+-
+Svertka.h
+/home/damir/CLionProjects/svertka/Svertka.h
 
