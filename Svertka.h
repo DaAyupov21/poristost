@@ -19,6 +19,7 @@ private:
 public:
     Svertka(vector<vector<int>> m, vector<vector<int>> k);
     void PrintResult();
+    void PrintMatrix();
 
 };
 
