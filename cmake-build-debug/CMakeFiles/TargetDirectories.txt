@@ -1,0 +1,3 @@
+/home/damir/CLionProjects/svertka/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/damir/CLionProjects/svertka/cmake-build-debug/CMakeFiles/svertka.dir
+/home/damir/CLionProjects/svertka/cmake-build-debug/CMakeFiles/edit_cache.dir

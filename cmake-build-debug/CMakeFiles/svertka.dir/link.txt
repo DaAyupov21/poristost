@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/svertka.dir/main.cpp.o CMakeFiles/svertka.dir/Svertka.cpp.o  -o svertka 

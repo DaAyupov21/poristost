@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/damir/CLionProjects/svertka/Svertka.cpp
+Svertka.h
+/home/damir/CLionProjects/svertka/Svertka.h
+iomanip
+-
+
+/home/damir/CLionProjects/svertka/Svertka.h
+vector
+-
+iostream
+-
+cstdio
+-
+
