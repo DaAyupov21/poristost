@@ -16,10 +16,12 @@ private:
     vector<vector<int>> matrix;
     vector<vector<int>> kernel;
     vector<vector<int>> result;
+    vector<vector<int>> stridingResult;
 public:
     Svertka(vector<vector<int>> m, vector<vector<int>> k);
     void PrintResult();
     void PrintMatrix();
+    void stridingMatrix();
 
 };
 

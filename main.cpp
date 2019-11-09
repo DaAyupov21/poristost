@@ -7,5 +7,7 @@ int main() {
     vector<vector<int>> k {{1,0,0}, {0,1,0}, {0,0,1}};
     Svertka svertka {m, k};
     svertka.PrintResult();
+    cout << "\n\n";
+    svertka.stridingMatrix();
     return 0;
 }
